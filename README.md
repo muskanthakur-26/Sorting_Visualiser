@@ -1,6 +1,6 @@
-# Visualization Porject on
+# Visualization Project on
 * Bubble Sort
 * Insertion Sort
 * Selection Sort
 
-||Built using HTML, CSS, JavaScript||
+*Built using HTML, CSS, JavaScript*
