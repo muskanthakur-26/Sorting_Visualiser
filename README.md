@@ -3,4 +3,4 @@
 * Insertion Sort
 * Selection Sort
 
-*Built using HTML, CSS, JavaScript*
+### *Built using HTML, CSS, JavaScript*
