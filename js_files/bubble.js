@@ -5,7 +5,7 @@ async function bubble() {
           ele[j].style.background = '#f0ad4e';
           ele[j+1].style.background = '#f0ad4e';
           if(parseInt(ele[j].style.height) > parseInt(ele[j+1].style.height)){
-              await waitforme(260);
+              await waitforme(150);
               swap(ele[j], ele[j+1]);
           }
           ele[j].style.background = 'white';
