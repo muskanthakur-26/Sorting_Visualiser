@@ -25,10 +25,8 @@ async function insertion(){
 const inSortbtn = document.querySelector(".insertionSort");
 inSortbtn.addEventListener('click', async function(){
   disableSortingBtn();
-  disableNewArrayBtn();
   await insertion();
   enableSortingBtn();
-  enableNewArrayBtn();
 });
 
 
