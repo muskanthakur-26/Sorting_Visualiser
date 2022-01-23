@@ -25,8 +25,6 @@ async function selection(){
 const selectionSortbtn = document.querySelector(".selectionSort");
 selectionSortbtn.addEventListener('click', async function(){
   disableSortingBtn();
-  disableNewArrayBtn();
   await selection();
   enableSortingBtn();
-  enableNewArrayBtn();
 });
