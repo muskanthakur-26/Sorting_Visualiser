@@ -13,12 +13,6 @@ function enableSortingBtn(){
   document.querySelector(".insertionSort").disabled = false;
   document.querySelector(".selectionSort").disabled = false;
 }
-function disableNewArrayBtn(){
-  document.querySelector(".newArray").disabled = true;
-}
-function enableNewArrayBtn(){
-  document.querySelector(".newArray").disabled = false;
-}
 function waitforme(milisec) { 
   return new Promise(resolve => { 
       setTimeout(() => { resolve('') }, milisec); 
