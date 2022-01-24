@@ -3,6 +3,15 @@ body {
   font-size: 20px;
   padding: 20px 20px 30px 0;
   line-height: 1.4;
+  background-color: black;
+}
+a:link, a:visited{
+  color: #f0ad4e;
+  font-weight:540;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
 }
 .flex-container{
   margin-top: 20px;
@@ -20,9 +29,4 @@ body {
 .row{
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
-}
-#input{
-  display: flex;
-  padding: 10px;
-  justify-content: space-around;
 }
